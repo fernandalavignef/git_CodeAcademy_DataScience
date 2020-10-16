@@ -42,7 +42,7 @@ JOIN countries
 	ON population_years.country_id = countries.id
 WHERE name = 'Poland'
 
--- How many countries have the word “The” in their name?
+-- How many countries have the word â€œTheâ€ in their name?
 
 SELECT count(*)
 FROM countries
